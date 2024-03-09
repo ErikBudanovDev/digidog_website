@@ -2,3 +2,4 @@
 /.well-known
 /dup-installer
 /en
+/node_modules
