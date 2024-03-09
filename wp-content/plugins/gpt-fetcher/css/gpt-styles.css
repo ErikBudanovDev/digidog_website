@@ -1,0 +1,87 @@
+/* gpt-styles.css */
+#gpt-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between elements as needed */
+  }
+  
+  #gpt-input {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Removes the default focus highlight */
+    font-size: 16px; /* Adjust the font size as needed */
+  }
+  
+  #gpt-submit {
+    padding: 10px 20px;
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #4CAF50; /* Adjust with your green color */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Adjust the font size as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: adds shadow for depth */
+  }
+  
+  #gpt-submit:hover {
+    background-color: #45a049; /* Darker shade of button color for hover */
+  }
+  
+  #gpt-response {
+    margin-top: 20px; /* Adds space between the button and response */
+  }
+  
+  /* Main container and background */
+#gpt-response {
+    background-color: #2C3E50; /* Dark blue background */
+    color: #ECF0F1; /* Light grey text color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Title style */
+  #gpt-response h2 {
+    color: #FFFFFF; /* White color for the title */
+    font-size: 24px; /* Adjust size as needed */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  /* Body text style */
+  #gpt-response p {
+    font-size: 16px; /* Adjust size as needed */
+    line-height: 1.6; /* Spacing between lines */
+  }
+  
+  /* Additional elements style */
+  /* If there are other elements such as lists, links, etc., style them accordingly */
+  #gpt-response a {
+    color: #18BC9C; /* Adjust to match your theme's link color */
+    text-decoration: none; /* No underline */
+  }
+  
+  #gpt-response a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  #gpt-response ul {
+    list-style-type: none; /* No bullets */
+    padding: 0;
+  }
+  
+  #gpt-response li {
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  /* Adding custom bullet points */
+  #gpt-response li:before {
+    content: '•'; /* Bullet character */
+    color: #18BC9C; /* Bullet color */
+    position: absolute;
+    left: 0;
+  }
+  
